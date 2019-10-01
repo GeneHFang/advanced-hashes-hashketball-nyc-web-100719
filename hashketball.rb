@@ -8,7 +8,13 @@ def game_hash
     away: Hash.new
   }
   
-  top
+  topHash.each_key { |key|
+  
+    topHash[key] = {
+      team
+    }
+  
+  }
   
 end
 
