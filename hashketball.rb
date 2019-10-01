@@ -130,15 +130,15 @@ def game_hash
   
 end
 
-def create_player(hash)
+def playerNumber(player)
   
-  hash.each_key{ |key|
-    
-  }
+  
+  
+  
   
 end
 
-
+def num_points_scored()
 
 
 
