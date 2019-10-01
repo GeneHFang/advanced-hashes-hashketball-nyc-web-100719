@@ -221,7 +221,7 @@ else
   playerStat = game_hash[:away][:players][index]
 end
 
-shoe
+playerStat
 
 end
 
