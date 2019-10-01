@@ -241,12 +241,11 @@ end
 
 def team_names
   array = []
-   game_hash.each_key { |key|
+   game_hash.each { |key, value|
     
-    if (game_hash[key][:team_name] == teamName)
-      colors = game_hash[key][:colors]
-    end
+    array.push(value[:team_name])
     
   }
+  array
 end
 
