@@ -133,12 +133,16 @@ end
 def getPlayerArray
   
   array = [
-    "Alan Anderson" => 0,
-    "Reggie Evans" => 1,
-    "Brook Lopez" => 2,
-    "Mason Plumlee" => 3,
-    "Jason Terry"
-    
+    "Alan Anderson",
+    "Reggie Evans",
+    "Brook Lopez",
+    "Mason Plumlee",
+    "Jason Terry",
+    "Jeff Adrien" => 0,
+    "Bismack Biyombo" => 1,
+    "DeSagna Diop" => 2,
+    "Ben Gordon" => 3,
+    "Kemba Walker"
     ]
   
 end
