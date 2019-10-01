@@ -254,7 +254,7 @@ def player_numbers(teamName)
   game_hash.each { |key, value|
     
     if (value[:team_name] == teamName)
-     value[:players].each { |k,v|
+     value[:players].each { |v|
       array.push(v[:number])
        
      }
