@@ -142,7 +142,7 @@ def isPlayerOnNets(player)
     "Jason Terry" => 4,
   }
   
-  return (hash.contains_key?(player))
+  return (hash.key?(player))
   
 
 end
