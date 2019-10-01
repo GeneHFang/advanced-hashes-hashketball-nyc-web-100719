@@ -137,7 +137,7 @@ def playerIndexNumber(player)
   hash = {
     "Alan Anderson" => 0,
     "Reggie Evans" => 1,
-    
+    "Brook Lopez"
   }
   
   
