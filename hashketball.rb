@@ -138,10 +138,10 @@ def getPlayerArray
     "Brook Lopez",
     "Mason Plumlee",
     "Jason Terry",
-    "Jeff Adrien" => 0,
-    "Bismack Biyombo" => 1,
-    "DeSagna Diop" => 2,
-    "Ben Gordon" => 3,
+    "Jeff Adrien",
+    "Bismack Biyombo",
+    "DeSagna Diop",
+    "Ben Gordon",
     "Kemba Walker"
     ]
   
@@ -298,16 +298,16 @@ end
 
 def most_points_scored
   max = -1
-  awayOrHome = Object.new
-  game_hash.each { |key, value|
-    index = 0
-    value[:players].each{ |v|
-      if (v[:points] > max)
-        max = v[:points]
-        awayOrHome = key
-      end
-      index+=1
-    }
+  player = ""
+  getPlayerArray.each { |n|
+    
+    if (num_points_scored(n) > max)
+      max = num_points_scored(n)
+      player = n
+    end
+    
   }
+  
+  player
   
 end
