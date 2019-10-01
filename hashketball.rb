@@ -130,7 +130,7 @@ def game_hash
   
 end
 
-def playerIndexNumber(player)
+def playerIndexNumberHome(player)
   
   hash = Hash.new
   
