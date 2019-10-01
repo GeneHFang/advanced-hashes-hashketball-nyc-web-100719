@@ -135,7 +135,8 @@ def playerIndexNumber(player)
   hash = Hash.new
   
   hash = {
-    "Alan Anderson" => 
+    "Alan Anderson" => 0,
+    
   }
   
   
