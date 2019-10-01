@@ -146,6 +146,24 @@ def playerIndexNumberHome(player)
   
 end
 
+def playerIndexNumberAway(player)
+  
+  hash = Hash.new
+  
+  hash = {
+    "Alan Anderson" => 0,
+    "Reggie Evans" => 1,
+    "Brook Lopez" => 2,
+    "Mason Plumlee" => 3,
+    "Jason Terry" => 4,
+  }
+  
+  return hash(player)
+  
+end
+
+
+
 def num_points_scored()
 
 
