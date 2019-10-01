@@ -338,7 +338,11 @@ def player_with_longest_name
   name = ""
   getPlayerArray.each{ |n|
   
-    
+    if (n.size> length)
+      length = n.size
+      name = n
+    end
     
   }
+  name
 end
