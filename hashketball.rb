@@ -142,7 +142,7 @@ def playerIndexNumberHome(player)
     "Jason Terry" => 4,
   }
   
-  
+  return hash(player)
   
 end
 
