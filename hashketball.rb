@@ -161,7 +161,7 @@ def playerIndexNumberHome(player)
     "Jason Terry" => 4,
   }
   
-  return hash(player)
+  return hash[player]
   
 end
 
@@ -177,7 +177,7 @@ def playerIndexNumberAway(player)
     "Kemba Walker" => 4,
   }
   
-  return hash(player)
+  return hash[player]
   
 end
 
