@@ -155,7 +155,7 @@ def playerIndexNumberAway(player)
     "Bismack Biyombo" => 1,
     "DeSagna Diop" => 2,
     "Ben Gordon" => 3,
-    "Jason Terry" => 4,
+    "Kemba Walker" => 4,
   }
   
   return hash(player)
