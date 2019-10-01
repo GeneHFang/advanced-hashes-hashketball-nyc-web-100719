@@ -185,7 +185,15 @@ end
 
 def num_points_scored(player)
 
+if (isPlayerOnNets(player))
+  index = playerIndexNumberHome(player)
+  points = game_hash[:home][:players][index][:points]
+else
+  index = playerIndexNumberAway(player)
+  points = game_hash[:away][:players][index][:points]
+end
 
+points
 
 end
 
