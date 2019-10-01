@@ -272,6 +272,7 @@ def big_shoe_rebounds
       if (v[:shoe] > max)
         max = v[:shoe]
         hash = v
+      end
     }
   }
   v[:rebounds]
