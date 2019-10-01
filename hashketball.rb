@@ -265,3 +265,14 @@ def player_numbers(teamName)
 end
 
 def big_shoe_rebounds
+  max = -1
+  hash = Hash.new
+  game_hash.each { |key, value|
+    value[:players].each{ |v|
+      if (v[:shoe] > max)
+        max = v[:shoe]
+        hash = v
+    }
+  }
+  v[:rebounds]
+end
