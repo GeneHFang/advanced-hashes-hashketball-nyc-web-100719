@@ -130,6 +130,19 @@ def game_hash
   
 end
 
+def which_team(player)
+  
+  hash = Hash.new
+  
+  hash = {
+    
+  }
+  
+
+end
+
+
+
 def playerIndexNumberHome(player)
   
   hash = Hash.new
