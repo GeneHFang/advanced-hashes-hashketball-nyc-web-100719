@@ -366,14 +366,14 @@ end
 def long_name_steals_a_ton?
   
   longestNameSteals = num_steals(player_with_longest_name)
-  otherStealMax
+  otherStealMax = -1
   
   getPlayerArray.each{ |n|
   
     if (n == player_with_longest_name)
       #do nothing
     else
-      
+      if (num_steals(n) > otherStealMax
     end  
   
   }
