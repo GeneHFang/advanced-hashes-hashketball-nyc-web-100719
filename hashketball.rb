@@ -11,7 +11,7 @@ def game_hash
   topHash.each_key { |key|
   
     topHash[key] = {
-      team
+      team_name: 
     }
   
   }
