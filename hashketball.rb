@@ -182,7 +182,6 @@ def playerIndexNumberAway(player)
 end
 
 
-
 def num_points_scored(player)
 
 if (isPlayerOnNets(player))
@@ -196,6 +195,7 @@ end
 points
 
 end
+
 
 def shoe_size(player)
 
@@ -211,6 +211,7 @@ shoe
 
 end
 
+
 def player_stats(player)
 
 if (isPlayerOnNets(player))
@@ -225,4 +226,16 @@ playerStat
 
 end
 
+def team_colors(teamName)
+  colors = []
+  game_hash.each_key { |key|
+    
+    if (game_hash[key][:team_name] == teamName)
+      colors = game_hash[key][:colors]
+    end
+    
+  }
+  
+  colors 
+end
 
