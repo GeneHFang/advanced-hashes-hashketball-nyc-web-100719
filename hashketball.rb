@@ -151,7 +151,7 @@ def playerIndexNumberAway(player)
   hash = Hash.new
   
   hash = {
-    "Alan Anderson" => 0,
+    "Jeff Adrien" => 0,
     "Reggie Evans" => 1,
     "Brook Lopez" => 2,
     "Mason Plumlee" => 3,
