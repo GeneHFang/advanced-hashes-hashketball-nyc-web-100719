@@ -214,6 +214,21 @@ points
 end
 
 
+def num_steals(player)
+
+if (isPlayerOnNets(player))
+  index = playerIndexNumberHome(player)
+  steals = game_hash[:home][:players][index][:steals]
+else
+  index = playerIndexNumberAway(player)
+  steals = game_hash[:away][:players][index][:steals]
+end
+
+steals
+
+end
+
+
 def shoe_size(player)
 
 if (isPlayerOnNets(player))
@@ -350,6 +365,17 @@ end
 
 def long_name_steals_a_ton?
   
-  longestNameSteals = player_with_longest_name
+  longestNameSteals = num_steals(player_with_longest_name)
+  otherStealMax
+  
+  getPlayerArray.each{ |n|
+  
+    if (n == player_with_longest_name)
+      #do nothing
+    else
+      
+    end  
+  
+  }
   
 end
