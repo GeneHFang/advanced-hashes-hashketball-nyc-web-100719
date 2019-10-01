@@ -43,12 +43,12 @@ def game_hash
           blocks: 1,
           slam_dunks: 15
         },
-        { #Alan Anderson
-          number: 0,
-          shoe: 16,
-          points: 22,
-          rebounds: 12,
-          assists: 12,
+        { #Mason Plumlee
+          number: 1,
+          shoe: 19,
+          points: 26,
+          rebounds: 11,
+          assists: 6,
           steals: 3,
           blocks: 1,
           slam_dunks: 1
