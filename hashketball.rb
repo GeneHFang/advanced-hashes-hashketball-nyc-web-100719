@@ -275,5 +275,5 @@ def big_shoe_rebounds
       end
     }
   }
-  v[:rebounds]
+  hash[:rebounds]
 end
