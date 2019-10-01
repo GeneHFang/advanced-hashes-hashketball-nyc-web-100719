@@ -10,7 +10,7 @@ def game_hash
   
   #home
   topHash[home] = {
-    
+    team_name: ""
   }
   topHash
   
