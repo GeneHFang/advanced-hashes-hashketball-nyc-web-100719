@@ -130,6 +130,19 @@ def game_hash
   
 end
 
+def getPlayerArray
+  
+  array = [
+    "Alan Anderson" => 0,
+    "Reggie Evans" => 1,
+    "Brook Lopez" => 2,
+    "Mason Plumlee" => 3,
+    "Jason Terry"
+    
+    ]
+  
+end
+
 def isPlayerOnNets(player)
   
   hash = Hash.new
@@ -281,15 +294,16 @@ end
 
 def most_points_scored
   max = -1
-  hash = Hash.new
+  awayOrHome = Object.new
   game_hash.each { |key, value|
     index = 0
     value[:players].each{ |v|
-      if (v[:shoe] > max)
-        max = v[:shoe]
-        hash = v
+      if (v[:points] > max)
+        max = v[:points]
+        awayOrHome = key
       end
+      index+=1
     }
   }
-  hash[:rebounds]
+  
 end
