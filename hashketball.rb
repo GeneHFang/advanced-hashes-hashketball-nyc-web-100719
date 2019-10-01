@@ -8,6 +8,7 @@ def game_hash
     away: Hash.new
   }
   
+  #home
   topHash.each_key { |key|
   
     topHash[key] = {
