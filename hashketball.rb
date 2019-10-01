@@ -154,7 +154,7 @@ def playerIndexNumberAway(player)
     "Jeff Adrien" => 0,
     "Bismack Biyombo" => 1,
     "DeSagna Diop" => 2,
-    "Mason Plumlee" => 3,
+    "Ben Gordon" => 3,
     "Jason Terry" => 4,
   }
   
