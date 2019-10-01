@@ -9,7 +9,7 @@ def game_hash
   }
   
   #home
-  topHash[home] = {
+  topHash[:home] = {
     team_name: "Brooklyn Nets",
     colors: ["Black","White"],
     players: [
@@ -69,7 +69,7 @@ def game_hash
   
   
   #away
-  topHash[home] = {
+  topHash[:away] = {
     team_name: "Brooklyn Nets",
     colors: ["Black","White"],
     players: [
