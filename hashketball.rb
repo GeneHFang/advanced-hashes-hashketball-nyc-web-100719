@@ -130,13 +130,19 @@ def game_hash
   
 end
 
-def which_team(player)
+def isPlayerOnNets(player)
   
   hash = Hash.new
   
   hash = {
-    
+    "Alan Anderson" => 0,
+    "Reggie Evans" => 1,
+    "Brook Lopez" => 2,
+    "Mason Plumlee" => 3,
+    "Jason Terry" => 4,
   }
+  
+  return (hash.contains_key?(player))
   
 
 end
@@ -177,7 +183,11 @@ end
 
 
 
-def num_points_scored()
+def num_points_scored(player)
+
+
+
+end
 
 
 
