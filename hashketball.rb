@@ -152,7 +152,7 @@ def playerIndexNumberAway(player)
   
   hash = {
     "Jeff Adrien" => 0,
-    "Reggie Evans" => 1,
+    "Bismack Biyombo" => 1,
     "Brook Lopez" => 2,
     "Mason Plumlee" => 3,
     "Jason Terry" => 4,
