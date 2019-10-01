@@ -239,3 +239,14 @@ def team_colors(teamName)
   colors 
 end
 
+def team_names
+  array = []
+   game_hash.each_key { |key|
+    
+    if (game_hash[key][:team_name] == teamName)
+      colors = game_hash[key][:colors]
+    end
+    
+  }
+end
+
