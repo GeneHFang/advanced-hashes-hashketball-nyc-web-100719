@@ -9,16 +9,9 @@ def game_hash
   }
   
   #home
-  topHash.each_key { |key|
-  
-    topHash[key] = {
-      team_name: "",
-      colors: Array.new, #array of strings
-      players: Array.new #array of hashes
-    }
-  
+  topHash[home] = {
+    
   }
-  
   topHash
   
 end
