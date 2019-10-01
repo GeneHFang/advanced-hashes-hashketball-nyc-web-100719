@@ -373,9 +373,13 @@ def long_name_steals_a_ton?
     if (n == player_with_longest_name)
       #do nothing
     else
-      if (num_steals(n) > otherStealMax
+      if (num_steals(n) > otherStealMax)
+        otherStealMax = num_steals(n)
+      end
     end  
   
   }
+  
+  return (longestNameSteals > otherStealMax)
   
 end
