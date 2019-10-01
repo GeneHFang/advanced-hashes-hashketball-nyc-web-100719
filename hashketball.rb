@@ -211,6 +211,18 @@ shoe
 
 end
 
+def player_stats(player)
 
+if (isPlayerOnNets(player))
+  index = playerIndexNumberHome(player)
+  playerStat = game_hash[:home][:players][index]
+else
+  index = playerIndexNumberAway(player)
+  playerStat = game_hash[:away][:players][index]
+end
+
+shoe
+
+end
 
 
