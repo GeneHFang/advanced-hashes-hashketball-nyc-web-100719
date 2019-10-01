@@ -311,3 +311,20 @@ def most_points_scored
   player
   
 end
+
+def winning_team
+  sumHome = 0
+  sumAway = 0
+  getPlayerArray.each { |n|
+  
+    if isPlayerOnNets(n)
+      sumHome += num_points_scored(n)
+    else
+      sumAway += num_points_scored(n)
+    end
+    
+  }
+  
+  if (sumHome > sumAway)
+  
+end
