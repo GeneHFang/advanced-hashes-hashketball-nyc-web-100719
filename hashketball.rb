@@ -10,7 +10,20 @@ def game_hash
   
   #home
   topHash[home] = {
-    team_name: ""
+    team_name: "Brooklyn Nets",
+    colors: ["Black","White"],
+    players: [
+        { #Alan Anderson
+          number: 0,
+          shoe: 
+        }
+      
+      
+      
+      
+      
+      
+      ]
   }
   topHash
   
