@@ -197,7 +197,19 @@ points
 
 end
 
+def shoe_size(player)
 
+if (isPlayerOnNets(player))
+  index = playerIndexNumberHome(player)
+  shoe = game_hash[:home][:players][index][:shoe]
+else
+  index = playerIndexNumberAway(player)
+  shoe = game_hash[:away][:players][index][:shoe]
+end
+
+shoe
+
+end
 
 
 
